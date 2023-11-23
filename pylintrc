@@ -1,0 +1,13 @@
+[MAIN]
+
+# List of plugins (as comma separated values of python module names) to load,
+# usually to register additional checkers.
+load-plugins=pylint.extensions.empty_comment,pylint.extensions.check_elif,pylint.extensions.redefined_loop_name,pylint.extensions.mccabe,pylint.extensions.while_used
+
+# pylint.extensions.mccabe checker complexity threshold
+max-complexity=10
+
+[DESIGN]
+
+# Maximum number of return / yield for function / method body.
+max-returns=2
